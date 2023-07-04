@@ -1,0 +1,8 @@
+❌ not working 
+pyinstaller --onefile --icon "E:/ofcodeprojects/library-mangment/server/logo.ico" --add-data "E:/ofcodeprojects/library-mangment/server/assets;assets/"  "E:/ofcodeprojects/library-mangment/server/main.py" --hidden-import=main main.py
+
+pyinstaller --onefile --icon "E:/ofcodeprojects/library-mangment/server/logo.ico" --add-data "E:/ofcodeprojects/library-mangment/server/assets;assets/" --hidden-import=main main.py
+
+✅ working 
+pyinstaller --onefile --icon "E:/ofcodeprojects/library-mangment/server/logo.ico" --hidden-import=main main.py
+
